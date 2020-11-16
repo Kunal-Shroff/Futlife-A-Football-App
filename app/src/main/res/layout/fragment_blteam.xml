@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:id="@+id/bundesligamodule"
+        android:orientation="vertical"
+    tools:context=".BundesligaSubModule.BLTeamFrag">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/BLTabLayout"
+                android:orientation="horizontal">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView1"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Augsburg"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/augsburg" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bayern Munchen"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bayern" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dortmund"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/dortmund" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView4"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dusseldorf"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/dusseldorf" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView5"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Frankfurt"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/frankfurt" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView6"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Frieburg"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/freiburg" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView7"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="M'Gladbach"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/gladbaach" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView8"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hertha Berlin"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/herthaberlin" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView9"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hoffenheim"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/hoffenheim" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView10"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Koln"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/koln" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView11"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bayer Leverkusen"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/leverkusen" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView12"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mainz"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mainz" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView13"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Paderborn"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/paderborn" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView14"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="RB leipzig"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/rbleipzig" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView15"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Schalke 04"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/schalke" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView16"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Union Berlin"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView16"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/unionberlin" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView17"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Werder Bremen"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView17"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/werderbremen" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView18"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Wolfsburg"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/wolfsburg" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="PLTabLayout">#660066</color>
+    <color name="LLTabLayout">#e59400</color>
+    <color name="SATabLayout">#3293ff</color>
+    <color name="L1TabLayout">#ffff66</color>
+    <color name="BLTabLayout">#ff1919</color>
+    <color name="Nation"> #4f743d</color>
+    <color name="CLTabLayout"> #0000b2</color>
+    <color name="Splash">#36c120</color>
+
+
+
+
+
+
+
+    <color name="PLTabTint">#e5e500</color>
+</resources>

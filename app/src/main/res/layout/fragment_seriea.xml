@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragPL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toTopOf="parent"
+    tools:context=".MainFragments.SerieaFragment">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/PLTabLayout"
+        app:tabIndicatorColor="@color/PLTabTint"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@android:color/black">
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/topscorers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top
+                              Scorers" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/teams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teams" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpagerSA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

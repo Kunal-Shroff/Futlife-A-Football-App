@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".Ligue1SubModule.Ligue1TableFrag">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="1dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/pos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="3dp"
+                    android:text="#"
+                    android:textSize="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+                <TextView
+                    android:id="@+id/team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:text="Team"
+                    android:textSize="16dp"
+                    app:layout_constraintStart_toEndOf="@+id/pos"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+                <TextView
+                    android:id="@+id/pl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="12dp"
+                    android:textColor="@color/black"
+                    android:text="PL"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/won"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/won"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="8dp"
+                    android:text="W"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/drawn"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/drawn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="8dp"
+                    android:text="D"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lost"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/lost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="9dp"
+                    android:text="L"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/gf"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/gf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="@color/black"
+                    android:text="gf"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/ga"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/ga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="9dp"
+                    android:text="ga"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toStartOf="@+id/pts"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/pts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="@color/black"
+                    android:text="pts"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewLigue1Table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>

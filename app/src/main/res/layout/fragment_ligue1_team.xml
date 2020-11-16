@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ligue1module"
+    tools:context=".Ligue1SubModule.Ligue1TeamFrag">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/L1TabLayout"
+                android:orientation="horizontal">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView1"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Amiens"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/amiena" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Angers"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/angers" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bordeaux"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bordeaux" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView4"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brest"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/brest" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView5"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dijon"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/dijon" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView6"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Lille"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/lille" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView7"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Lyon"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/lyon" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView8"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Marseille"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/marseille" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView9"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Metz"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/metz" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView10"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Monaco"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/monaco" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView11"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montpellier"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/montpellier" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView12"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nantes"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nantes" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView13"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nice"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nice" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView14"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nimes"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nimes" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView15"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PSG"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/psg" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView16"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Reims"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView16"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/reims" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView17"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rennes"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView17"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/rennes" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView18"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Saint-Etienne"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/saintetienne" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView19"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Strasbourg"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+                        <ImageView
+                            android:id="@+id/imageView19"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/strasbourg" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView20"
+                    android:layout_width="250dp"
+                    android:layout_height="240dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Toulouse"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="200sp"
+                            android:layout_height="200sp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/toulouse" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
